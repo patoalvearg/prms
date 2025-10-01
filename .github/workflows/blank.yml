@@ -20,5 +20,8 @@ jobs:
       - name: Imprimir variable
         run: echo "Valor ${{vars.MIVARIABLE}}"
 
+      - name: Imprimir secreto
+        run: echo "Valor ${{secrets.MYSECRETO}}"
+
     
 
